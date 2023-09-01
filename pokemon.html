@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/css/global.css" />
+    <link rel="stylesheet" href="/assets/css/pokemon.css" />
+    <title>Pokémon</title>
+    <link
+      rel="shortcut icon"
+      href="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Pok%C3%A9_Ball_icon.svg/1024px-Pok%C3%A9_Ball_icon.svg.png?20161023215848"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <header><h1 id="pokemonName">Pokemon</h1></header>
+    <main>
+      <section>
+        <ol class="pokemon">
+          <li class="name">Bulbasaur</li>
+          <li class="id">#1</li>
+          <li class="type">grass</li>
+          <li class="type">poison</li>
+          <li class="photo">
+            <img
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png"
+              alt="Bulbasaur"
+            />
+          </li>
+          <li class="stats">STATS</li>
+        </ol>
+      </section>
+    </main>
+    <footer>
+      <a href="javascript:history.go(-1)">Voltar</a>
+    </footer>
+    <script src="/assets/js/pokemon-model.js"></script>
+    <script src="/assets/js/poke-api.js"></script>
+    <script src="/assets/js/pokemon-stats.js"></script>
+  </body>
+</html>
